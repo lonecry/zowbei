@@ -1,0 +1,47 @@
+body, div, p, ul, li, ol, dl, dd, dt, h1, h2, h3, h4, h5, h6, span, i, input, img, a, button, select, table, tr, th, td, label, textarea {
+    padding: 0;
+    margin: 0;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+li {
+    list-style: none;
+}
+
+i {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0 none;
+    vertical-align: top;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

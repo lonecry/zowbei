@@ -1,6 +1,6 @@
 # zowbei
 
-> JinZhiPeng's personal project.
+> JinZhiPeng's personal project. http://www.zowbei.com
 
 ## Build Setup
 
