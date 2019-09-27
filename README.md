@@ -1,6 +1,9 @@
 # zowbei
 
-> JinZhiPeng's personal project. http://www.zowbei.com
+> JinZhiPeng's personal project. http://www.zowbei.com  
+>
+参考链接 【1】：http://environment-320.view.sitestar.cn/  
+参考链接 【2】：http://environment-1220103.view.sitestar.cn/ 
 
 ## Build Setup
 
