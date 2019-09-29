@@ -40,7 +40,7 @@
         display: block;
         margin: 0 auto;
         box-sizing: border-box;
-        outline: 1px solid #42b983;
+        /*outline: 1px solid #42b983;*/
         background: #ffffff;
     }
 
