@@ -2,12 +2,14 @@
     <div class="hello">
         <Header></Header>
         <Swiperimg class="swiperindex"></Swiperimg>
+        <Introduce class="intro"></Introduce>
     </div>
 </template>
 
 <script>
     import Header from "./Header";
     import Swiperimg from "./Swiperimg";
+    import Introduce from './Introduce'
 
     export default {
         name: 'Index',
@@ -17,7 +19,7 @@
             }
         }
         ,
-        components: {Header, Swiperimg}
+        components: {Header, Swiperimg, Introduce}
     }
 </script>
 
@@ -36,5 +38,9 @@
         overflow: hidden;
         display: block;
         /*height: auto;*/
+    }
+
+    .intro {
+        margin-bottom: 100px;
     }
 </style>
