@@ -14,6 +14,26 @@
                 <p>{{introduce3}}</p>
             </div>
             <img src="../assets/images/mou.png" class="introimg" alt="">
+            <div class="oalist">
+                <div class="introlist">
+                    <img src="../assets/images/o1.png" class="itroicon" alt="">
+                    <span class="intonum">100<span class="add">+</span></span>
+                    <span class="span1">国家或地区</span>
+                    <span class="span2">使用我们的产品</span>
+                </div>
+                <div class="introlist">
+                    <img src="../assets/images/o2.png" class="itroicon" alt="">
+                    <span class="intonum">125<span class="add">+</span></span>
+                    <span class="span1">国家或地区</span>
+                    <span class="span2">使用我们的产品</span>
+                </div>
+                <div class="introlist">
+                    <img src="../assets/images/o3.png" class="itroicon" alt="">
+                    <span class="intonum">800<span class="add">+</span></span>
+                    <span class="span1">国家或地区</span>
+                    <span class="span2">使用我们的产品</span>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -107,6 +127,87 @@
         height: 213px;
         position: absolute;
         z-index: 109;
+    }
+
+    .oalist {
+        width: 1200px;
+        height: 153px;
+        /*outline: 1px solid red;*/
+        position: absolute;
+        left: 0;
+        top: 616px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        /*     display: flex;*/
+        /*     flex-flow: column wrap;*/
+        /*     justify-content: center;*/
+        /*     align-items: center;*/
+    }
+
+    .introlist {
+        width: 200px;
+        height: 153px;
+        line-height: 153px;
+        /*background: linear-gradient(to bottom, rgba(66, 185, 131, 0.2), rgba(19, 155, 72, 0.17));*/
+        position: relative;
+
+    }
+
+    .itroicon {
+        display: block;
+        position: absolute;
+        /*width: 48px;*/
+        /*height: 46px;*/
+        left: 0;
+        top: 38px;
+    }
+
+    .intonum {
+        text-align: left;
+        font-size: 57px;
+        line-height: 57px;
+        display: block;
+        left: 58px;
+        top: 34px;
+        height: 50px;
+
+        /*width: 200px;*/
+        /*background: #ff000052;*/
+        position: absolute;
+        cursor: pointer;
+        color: rgb(85, 85, 85);
+        font-family: simsun;
+    }
+
+    .intonum:hover {
+        color: #00987a;
+    }
+
+    .add {
+        font-size: 20px;
+        position: absolute;
+        right: -15px;
+        top: -22px;
+    }
+
+    .span1 {
+        position: absolute;
+        left: 65px;
+        top: 93px;
+        font-size: 13px;
+        line-height: 13px;
+
+    }
+
+    .span2 {
+        position: absolute;
+        left: 65px;
+        top: 110px;
+        font-size: 13px;
+        line-height: 13px;
+
     }
 
 </style>

@@ -49,6 +49,8 @@
         height: 118px;
         display: block;
         float: left;
+        transform-origin: center center;
+        transform: scale(0.7);
     }
 
     .navul {
