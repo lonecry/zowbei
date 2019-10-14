@@ -1,11 +1,13 @@
 <template>
     <div class="root">
         <div class="maincenter">
-            <span class="cstlayer"> </span>
-            <div id="" type="title" class="entitle ">
-                <div class="wp-title_content">
-                    <span class="titlespan"><strong>Overview of Enterprises</strong></span>
-                    <span class="titlespan" style="font-size: 30px">企业概况</span>
+            <div>
+                <span class="cstlayer"> </span>
+                <div id="" type="title" class="entitle ">
+                    <div class="wp-title_content">
+                        <span class="titlespan"><strong>Overview of Enterprises</strong></span>
+                        <span class="titlespan" style="font-size: 30px">企业概况</span>
+                    </div>
                 </div>
             </div>
             <div class="js">
@@ -24,14 +26,14 @@
                 <div class="introlist">
                     <img src="../assets/images/o2.png" class="itroicon" alt="">
                     <span class="intonum">125<span class="add">+</span></span>
-                    <span class="span1">国家或地区</span>
-                    <span class="span2">使用我们的产品</span>
+                    <span class="span1">服务客户</span>
+                    <span class="span2">获得我们的优质服务</span>
                 </div>
                 <div class="introlist">
                     <img src="../assets/images/o3.png" class="itroicon" alt="">
                     <span class="intonum">800<span class="add">+</span></span>
-                    <span class="span1">国家或地区</span>
-                    <span class="span2">使用我们的产品</span>
+                    <span class="span1">专利注册项目</span>
+                    <span class="span2">核心技术使我们始终领先</span>
                 </div>
             </div>
         </div>
@@ -45,17 +47,19 @@
         data() {
             return {
                 "title": "",
-                "introduce1": "卓贝环保科技江苏有限公司是一家环保全产业链综合服务企业，主要从事环保管家服务、建设项目环境影响评估、环保工程设计、环境技术咨询、环保验收、环境应急预案、可行性研究报告编制、排污许可证办理、企业清洁生产审核、环保设备销售等业务。 ",
-                "introduce2": "本着“以市场为目标、以技术为先导、以资本为支撑、以资源合成为核心”的发展理念，为广大客户提供环保一站式服务平台，现已成为长三角地区知名的环保服务企业。",
-                "introduce3": "公司自成立以来，一直致力于打造一支技术精湛、服务专业、勇于奉献的技术团队，公司现有注册环境影响评价工程师22人，均出自国内知名高等院校，专业涵盖环境科学、环境工程、水文地质、化学、土壤学等。公司始终坚持“推动环境可持续发展、解决企业环保难题”的从业宗旨；坚持以客户为中心，以技术实力为根本，坚持实事求是，坚持客观公正。"
+                "introduce1": "卓贝环保科技江苏有限公司是一家环保全产业链综合服务企业，注册资金1000万，坐落于“中国环保之乡”宜兴。主要从事环保管家服务、建设项目环境影响评估、环保验收、项目立项咨询、环保政策咨询、环境应急预案编制、可行性研究报告编制、企业排污许可证代办、企业清洁生产审核、环保设备销售等业务。本着“以市场为目标、以技术为先导、以资本为支撑、以资源合成为核心”的发展理念，为广大客户提供环保一站式服务平台，现已成为长三角地区知名的环保服务企业。",
+                "introduce2": "公司自成立以来，一直致力于打造一支技术精湛、服务专业、勇于奉献的技术团队，公司现有环境影响评价工程师12人，均出自国内知名高等院校，专业涵盖环境科学、环境工程、水文地质、化学、土壤学等。",
+                "introduce3": "公司始终坚持“推动环境可持续发展、解决企业环保难题”的从业宗旨；坚持以客户为中心，以技术实力为根本，坚持实事求是，坚持客观公正。"
             }
+
+
         }
     }
 </script>
 
 <style scoped>
     .root {
-        background: rgba(245, 243, 246, 0.28);
+        /*background: rgba(245, 243, 246, 0.28);*/
     }
 
     .maincenter {
@@ -76,6 +80,7 @@
         position: absolute;
         z-index: 106;
     }
+
 
     .cstlayer {
         left: 0px;
@@ -147,7 +152,7 @@
     }
 
     .introlist {
-        width: 200px;
+        width: 233px;
         height: 153px;
         line-height: 153px;
         /*background: linear-gradient(to bottom, rgba(66, 185, 131, 0.2), rgba(19, 155, 72, 0.17));*/

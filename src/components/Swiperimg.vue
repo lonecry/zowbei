@@ -26,7 +26,8 @@
                 swiper: [
                     require('@/assets/images/bg1.jpg'),
                     require('@/assets/images/bg2.jpg'),
-                    require('@/assets/images/bg3.jpg')
+                    require('@/assets/images/bg3.jpg'),
+                    require('@/assets/images/bg4.jpg'),
                 ]
             }
         },

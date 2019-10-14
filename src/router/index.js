@@ -11,7 +11,7 @@ const router = new Router({
             path: '/',
             name: 'Index',
             component: Index,
-            meta: {title: "卓贝科技"},
+            meta: {title: "Vue Router"},// 卓贝科技
         }
     ]
 })

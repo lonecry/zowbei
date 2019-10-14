@@ -3,6 +3,8 @@
         <Header></Header>
         <Swiperimg class="swiperindex"></Swiperimg>
         <Introduce class="intro"></Introduce>
+        <Company></Company>
+        <Advantage></Advantage>
     </div>
 </template>
 
@@ -10,6 +12,8 @@
     import Header from "./Header";
     import Swiperimg from "./Swiperimg";
     import Introduce from './Introduce'
+    import Company from './Company'
+    import Advantage from './Advantage'
 
     export default {
         name: 'Index',
@@ -19,7 +23,7 @@
             }
         }
         ,
-        components: {Header, Swiperimg, Introduce}
+        components: {Header, Swiperimg, Introduce, Company, Advantage}
     }
 </script>
 
@@ -28,19 +32,16 @@
     body {
         min-width: 1200px;
     }
-
     a {
         color: #42b983;
     }
-
     .swiperindex {
         width: 100%;
         overflow: hidden;
         display: block;
         /*height: auto;*/
     }
-
     .intro {
-        margin-bottom: 100px;
+        /*margin-bottom: 100px;*/
     }
 </style>
