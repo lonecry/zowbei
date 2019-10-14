@@ -1,3 +1,4 @@
+/*
 import Vue from 'vue'
 import Router from 'vue-router'
 import Index from '@/components/Index'
@@ -23,3 +24,19 @@ router.beforeEach((to, from, next) => {//beforeEach是router的钩子函数，�
     next()//执行进入路由，如果不写就不会进入目标页
 })
 export default router
+*/
+import Vue from 'vue'
+import Router from 'vue-router'
+import Index from '@/components/Index'
+
+Vue.use(Router)
+
+export default new Router({
+    routes: [
+        {
+            path: '/',
+            name: 'Index',
+            component: Index
+        }
+    ]
+})
