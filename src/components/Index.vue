@@ -5,6 +5,7 @@
         <Introduce class="intro"></Introduce>
         <Company></Company>
         <Advantage></Advantage>
+        <Footer></Footer>
     </div>
 </template>
 
@@ -14,31 +15,30 @@
     import Introduce from './Introduce'
     import Company from './Company'
     import Advantage from './Advantage'
+    import Footer from "./Footer";
 
     export default {
-        name: 'Index',
+        name      : 'Index',
         data() {
             return {
                 msg: 'Welcome to Your Vue.js App'
             }
-        }
-        ,
-        components: {Header, Swiperimg, Introduce, Company, Advantage}
+        },
+        components: {Footer, Header, Swiperimg, Introduce, Company, Advantage, Footer}
     }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
     body {
-        min-width: 1200px;
+        min-width : 1200px;
     }
     a {
-        color: #42b983;
+        color : #42b983;
     }
     .swiperindex {
-        width: 100%;
-        overflow: hidden;
-        display: block;
+        width    : 100%;
+        overflow : hidden;
+        display  : block;
         /*height: auto;*/
     }
     .intro {

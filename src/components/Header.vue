@@ -9,7 +9,7 @@
                     <li class="navli">产业布局</li>
                     <li class="navli">客户方案</li>
                     <li class="navli">新闻资讯</li>
-                    <li class="navli">联系我们(189***5960)</li>
+                    <li class="navli">联系我们</li>
                 </ul>
             </div>
         </div>
