@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="swiperarea">
         <div class="swiper-container swiperimg" id="headswiper">
             <div class="swiper-wrapper wrapper">
                 <div class="swiper-slide" v-for="(item,index) in swiper" :key="index">
@@ -10,6 +10,14 @@
                 </div>
             </div>
             <div class="swiper-pagination"></div>
+
+        </div>
+        <div class="swipermask">
+            <p class="swieprtips" style="text-align: justify">
+                ENERGY SCIENCE AND TECHNOLOGY<br>
+                ACHIEVES THE FUTURE
+            </p>
+            <span class="swieprtips">推动环境可持续发展、解决企业环保难题</span>
         </div>
         <img src="../assets/images/left_arrow.png" class="arrow leftarrow" alt="">
         <img src="../assets/images/right_arrow.png" class="arrow rightarrow" alt="">
@@ -33,8 +41,8 @@
         },
         mounted() {
             var mySwiper = new Swiper('#headswiper', {
-                autoplay: {
-                    delay: 3000,
+                autoplay  : {
+                    delay          : 3000,
                     stopOnLastSlide: true
                 },
                 navigation: {
@@ -42,57 +50,78 @@
                     prevEl: '.rightarrow',
                 },
                 pagination: {
-                    el: '.swiper-pagination',
+                    el       : '.swiper-pagination',
                     clickable: true,
                 },
-                loop: true,
-                observer: true,
+                loop      : true,
+                observer  : true,
             });
         }
     }
 </script>
 <style>
     #headswiper .swiper-pagination-bullet {
-        margin: 0 4px;
-        width: 46px;
-        height: 5px;
-        border-radius: 0;
+        margin        : 0 4px;
+        width         : 46px;
+        height        : 5px;
+        border-radius : 0;
         /*background: #139b48;*/
     }
-
     #headswiper .swiper-pagination-bullet-active {
-        background: #139b48;
+        background : #139b48;
     }
 </style>
 <style scoped>
 
-    .swiperimg, .headswiperbg {
-        width: 100%;
-        height: 100%;
+    .swiperimg, .headswiperbg, .swipermask {
+        width  : 100%;
+        height : 100%;
     }
-
     .wrapper {
-        position: relative;
+        position : relative;
     }
-
+    .swiperarea {
+        position : relative;
+    }
+    .swiperarea .swipermask {
+        /*background      : wheat;*/
+        position        : absolute;
+        left            : 0;
+        top             : 0;
+        z-index         : 100;
+        display         : flex;
+        flex-flow       : column nowrap;
+        justify-content : center;
+        align-items     : center;
+    }
+    .swieprtips {
+        width          : 1000px;
+        text-align     : left;
+        color          : rgb(255, 255, 255);
+        text-transform : uppercase;
+        font-family    : 微软雅黑;
+    }
+    .swieprtips:nth-child(1) {
+        font-size : 48px;
+    }
+    .swieprtips:nth-child(2) {
+        font-size : 30px;
+    }
     .arrow {
-        width: 50px;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 100;
-        cursor: pointer;
+        width     : 50px;
+        position  : absolute;
+        top       : 50%;
+        transform : translateY(-50%);
+        z-index   : 100;
+        cursor    : pointer;
     }
-
     .leftarrow {
-        left: 2%;
+        left : 2%;
     }
-
     .rightarrow {
-        right: 2%;
+        right : 2%;
     }
-
     .swiper-slide {
-        overflow: hidden;
+        overflow : hidden;
     }
 </style>

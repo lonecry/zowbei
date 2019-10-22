@@ -1,5 +1,9 @@
 <template>
     <div class="footer">
+        <div class="logoarea">
+            <img src="../assets/images/logo.png" style="width: 135px" alt="">
+            <!--            <p>卓贝环保科技江苏有限公司</p>-->
+        </div>
         <div class="mianbox">
             <div class="abtinfo cell">
                 <img src="../assets/images/phone.png" class="phone" alt="">
@@ -19,13 +23,13 @@
                 <img src="../assets/images/email.png" class="phone" alt="">
                 <p class="desc">
                     <span>邮件</span> <br/>
-                    <span>869490494@qq.com</span>
+                    <span>{{email}}</span>
                 </p>
             </div>
         </div>
         <div class="abtsite">
             <!--            增值电信业务经营许可证： 鲁00-0000XXXX 网络文化经营许可证：鲁网文[0000]0000-XXX号 COPYRIGHT© 2003-2020 XXXX 版权所有-->
-            COPYRIGHT© 2019-2020 卓贝环保科技江苏有限公司 版权所有
+            COPYRIGHT© 2019-2020 卓贝环保科技江苏有限公司 版权所有 Jiangsu Zowbei EP Technology CO., LTD.
         </div>
     </div>
 </template>
@@ -39,6 +43,7 @@
                 cell2  : "檀经理:  18019244190",
                 address: "江苏省宜兴市官林镇戈潘路28号",
                 address: "江苏省宜兴市官林镇戈潘路28号",
+                email  : "jinzpg@163.com"
             }
         }
     }
@@ -50,11 +55,20 @@
         width: 100%;
         height: 380px;
         background: #002538;
-        .mianbox {
+        .logoarea {
             width: 1200px;
-            height: 340px;
-            /*background: rgba(255, 255, 255, 0.07);*/
-            /*background: rgba(255, 255, 255, 0.07);*/
+            height: 305px;
+            display: block;
+            display: flex;
+            margin: 0 auto;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .mianbox {
+            /*background: red;*/
+            width: 1200px;
+            height: 60px;
             display: flex;
             margin: 0 auto;
             flex-flow: row nowrap;
@@ -63,11 +77,9 @@
             .abtinfo {
                 width: 25%;
                 height: 50px;
-                /*background: rgba(194, 255, 238, 0.07);*/
                 box-sizing: border-box;
-                /*border-right: 1px solid white;*/
                 display: flex;
-                margin-bottom: 50px;
+                margin-bottom: 25px;
                 flex-flow: row nowrap;
                 justify-content: space-evenly;
                 align-items: center;
@@ -76,6 +88,8 @@
                 .desc {
                     text-align: justify;
                     padding-left: 15px;
+                    text-align: justify;
+                    width: 80%;
                 }
             }
         }

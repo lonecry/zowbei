@@ -19,7 +19,7 @@
                 </div>
                 <div class="item"><img class="itemimg" :src="require('@/assets/images/c3.jpg')">
                     <span class="mask"></span>
-                    <spn class="t1">环保竣工验收</spn>
+                    <spn class="t1">环保验收</spn>
                     <spn class="t2">Environmental protection completion acceptance</spn>
                 </div>
                 <div class="item"><img class="itemimg" :src="require('@/assets/images/c4.jpg')">
