@@ -14,8 +14,8 @@
         </div>
         <div class="swipermask">
             <p class="swieprtips" style="text-align: justify">
-                ENERGY SCIENCE AND TECHNOLOGY<br>
-                ACHIEVES THE FUTURE
+                Promote environmental sustainability<br>
+                solve corporate environmental problems
             </p>
             <span class="swieprtips">推动环境可持续发展、解决企业环保难题</span>
         </div>
@@ -102,7 +102,7 @@
         font-family    : 微软雅黑;
     }
     .swieprtips:nth-child(1) {
-        font-size : 48px;
+        font-size : 35px;
     }
     .swieprtips:nth-child(2) {
         font-size : 30px;
